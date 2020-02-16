@@ -23,6 +23,7 @@ export class MskStack extends cdk.Stack {
         name: 'internal',
         subnetType: ec2.SubnetType.ISOLATED,
       }
+      
       ]
     });
 
